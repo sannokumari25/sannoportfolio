@@ -46,16 +46,16 @@ const Banner=()=>{
         </p>
        
        <div className="flex icons-container space-x-5">
-        <a className="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
+        <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
        <i class="fa-brands text-4xl fa-facebook"></i>
        </a>
-       <a className="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
+       <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
        <i class="fa-brands text-4xl fa-instagram"></i>
        </a>
-       <a className="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
+       <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
        <i class="fa-brands text-4xl fa-youtube"></i>
        </a>
-       <a className="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
+       <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
        <i class="fa-brands text-4xl fa-linkedin"></i>
        </a>
        </div>
@@ -66,7 +66,7 @@ const Banner=()=>{
    {/* second dabba */}
             <div className="border-non p-10 mr-8 ml-8  flex w-fit justify-center">
                 {/* image */}
-                <img className="rounded-full shadow-lg h-36 w-48" src={bannerImage}/>
+                <img className="rounded-full shadow-lg h-36 w-48" src={bannerImage} alt=""/>
             </div>
         </div>
     )
