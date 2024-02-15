@@ -9,7 +9,7 @@ const Banner=()=>{
 
  useEffect(()=>{
     const typed = new Typed(el.current, {
-        strings: ["Frontend Developer","Backend Developer"], // Strings to display
+        strings: ["Frontend Developer","Android Developer","Backend Developer"], // Strings to display
         // Speed settings, try diffrent values untill you get good results
         startDelay: 100,
         typeSpeed: 50,
