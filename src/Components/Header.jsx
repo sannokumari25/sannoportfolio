@@ -47,7 +47,7 @@ const Header = () => {
           {/* menu links */}
 
          {menuLinks.map((link)=>(
-            <a key={link.id} href={link.link}className="hover:text-orange-600">{link.title}
+            <a key={link.id} href={link.link} className="hover:text-orange-600">{link.title}
             </a>
          ))}
 

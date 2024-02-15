@@ -47,16 +47,16 @@ const Banner=()=>{
        
        <div className="flex icons-container space-x-5">
         <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
-       <i class="fa-brands text-4xl fa-facebook"></i>
+       <i className="fa-brands text-4xl fa-facebook"></i>
        </a>
        <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
-       <i class="fa-brands text-4xl fa-instagram"></i>
+       <i className="fa-brands text-4xl fa-instagram"></i>
        </a>
        <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
-       <i class="fa-brands text-4xl fa-youtube"></i>
+       <i className="fa-brands text-4xl fa-youtube"></i>
        </a>
        <a href="hover:bg-orange-600 border cursor-pointer px-3 py-3 w-16 h-16 rounded-full flex justify-center items-center bg-gray-800">
-       <i class="fa-brands text-4xl fa-linkedin"></i>
+       <i className="fa-brands text-4xl fa-linkedin"></i>
        </a>
        </div>
         <br/>
